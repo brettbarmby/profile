@@ -1,0 +1,66 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  background-color: #F7F7F7;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px
+  line-height 2;
+}
+
+a {
+  color: #58A3E3;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5AD5CC;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+ .card-white {
+  background-color: white;
+  border-radius: 4px;
+  margin: 20px;
+  padding: 40px;
+  box-shadow: 0px 10px 30px #cfd1d3;
+  text-align: center;
+ }
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-blue {
+  color: white;
+  background-color:#58A3E3;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+
+}
+
+.btn-blue:hover {
+  color: white;
+  background-color: #5AD5CC;
+  transition: background-color .5s, color .5s;
+  box-shadow: 0px 8px 16px rgba(0,0,0, .1);
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
